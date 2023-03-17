@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <title>Lunch</title>
+
+    <style>
+        a, a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        #navbar {
+            background-color: black;
+        }
+        #navBtnGrp {
+            width: 100%;
+            text-align: center;
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #00ffff 0%, #66ccff 100%);
+            color: #000000 !important;
+        }
+        #pageBtnGrp {
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+        }
+        #pages, #pages:hover {
+            text-decoration: none;
+            color: black;
+        }
+        #lunch {
+            background-color: #AAE9F3;
+            width: 1200px;
+            padding-left: 15px;
+            border-radius: 5px;
+            margin: 20px;   
+            display: flex;
+        }
+        @media only screen and (max-width: 600px) {
+            #lunch {
+                width: 100%;
+                height: auto;
+            }
+        }
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+            <div id="navBtnGrp">        
+                <button class="btn btn-danger text-white navbar-btn"><a href="order.html">Order</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="location.html">Location</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="contactus.html">Contact Us</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="index.html">Home</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pageBtnGrp">
+        <button class="btn btn-primary"><a id="pages" href="breakfast.html">Breakfast</a></button>
+        <button class="btn btn-primary"><a id="pages" href="lunch.html">Lunch</a></button>
+        <button class="btn btn-primary"><a id="pages" href="dinner.html">Dinner</a></button>
+    </div>
+
+    <div id="lunch">
+        <h1>Lunch</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Cheeseburger</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWDEu2sVQzk2ZrmIyw_utjRNjyJn--maNQ7wqPsprZ83MvdY96&s" alt="Cheeseburger">
+            </div>  
+            <div class="col-xs-12 col-md-4">
+                <h2>Chicken Sandwich</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1NHkPnTY3FCJnpfszvBOWL5YYuEx-KXE82OWVPkESqB1v2JD&s" alt="Chicken Sandwich">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Fish &amp; Chips</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGFE0Q3JuIRVG4-4CHyS_GTHlKOlteovz-1UcwwGBq7m1t7g&s" alt="Fish &amp; Chips">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Fries</h2>
+                <img class="responsive" src="https://clipground.com/images/french-fries-clipart-6.gif" alt="Fries">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Tater Tots</h2>
+                <img class="responsive" src="https://clipground.com/images/tater-tots-clipart-7.jpg" alt="Tater Tots">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Cobb Salad</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52wrIGhQq8WJ59ixMvvGVxz_yh-OvQdT3LQK_5CBVE7QZELs&s" alt="Cobb Salad">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Chicken Salad</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPYjKkzaFtvcfmckgcr4FtkWvDOeC-0H54ACd_CwjWmKsAM4&s" alt="Chicken Salad">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Fettuccine Alfredo</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRisQVfMvao3wqNp_z5XGt0QE73IZck3OspLIXaugKfpLCHm3A&s" alt="Fettuccine Alfredo">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Macaroni &amp; Cheese</h2>
+                <img class="responsive" src="https://clipground.com/images/macaroni-clipart-13.jpg" alt="Macaroni &amp; Cheese">
+            </div>
+        </div>
+    </div> 
+</body>
+
+</html>

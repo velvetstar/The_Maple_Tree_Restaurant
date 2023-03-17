@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <title>Dinner</title>
+    
+    <style>
+        a, a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        #navbar {
+            background-color: black;
+        }
+        #navBtnGrp {
+            width: 100%;
+            text-align: center;
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #00ffff 0%, #66ccff 100%);
+            color: #000000 !important;
+        }
+        #pageBtnGrp {
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+        }
+        #pages, #pages:hover {
+            text-decoration: none;
+            color: black;
+        }
+        #dinner {
+            background-color: #AAE9F3;
+            width: 1200px;
+            padding-left: 15px;
+            border-radius: 5px;
+            margin: 20px;   
+        }
+        @media only screen and (max-width: 600px) {
+            #dinner {
+                width: 100%;
+                height: auto;
+            }
+        }
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+            <div id="navBtnGrp">        
+                <button class="btn btn-danger text-white navbar-btn"><a href="order.html">Order</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="location.html">Location</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="contactus.html">Contact Us</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="index.html">Home</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pageBtnGrp">
+        <button class="btn btn-primary"><a id="pages" href="breakfast.html">Breakfast</a></button>
+        <button class="btn btn-primary"><a id="pages" href="lunch.html">Lunch</a></button>
+        <button class="btn btn-primary"><a id="pages" href="dinner.html">Dinner</a></button>
+    </div>
+
+    <div id="dinner">
+        <h1>Dinner</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Fried Chicken</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDY2oDqTJZsV4AFM77QukNfz69YHROzr5bBJ0aaPMwOqLiBk&s" alt="Fried Chicken">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Chicken-Fried Steak</h2>
+                <img class="responsive" src="https://clipground.com/images/chicken-fried-steak-clipart-9.jpg" alt="Chicken-Fried Steak">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Steak</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL1HyYOBfMrD_XSQbjLA9qXrbES1a8SrTC1879C-ega_gZfoo&s" alt="Steak">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Coconut Shrimp</h2>
+                <img class="responsive" src="https://media.gettyimages.com/photos/closeup-of-coconut-shrimps-picture-id680862347?k=6&m=680862347&s=612x612&w=0&h=mnL1MwcmZAd8OMzV7irf0Qwn1AmalQhk28MFFNSw18Y=" alt="Coconut Shrimp">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Salmon</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvFmhHUzDrqhe10BX249YJ0-4Wv7XlF-CwzS0Wd2zC64a6E9U&s" alt="Salmon">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Chicken &amp; Dumplings</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ59xCK87-Bvn6-ZaOvcEPDr_4mRPgufcWK3ABnFgu6RatlVmA&s" alt="Chicken &amp; Dumplings">
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>BBQ Ribs</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yLG8M-Ky2FpdpTgbWiojgGK9WUI2EsY7aqnGvtjuE93kPVz4&s" alt="BBQ Ribs">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Stuffed Pork Chops</h2>
+                <img class="responsive" src="https://media.gettyimages.com/photos/stuffed-pork-chop-picture-id172162286?k=6&m=172162286&s=612x612&w=0&h=dUY63UPgeSRunvLZKwWIleaQ6qs68X9V8haZdO3qJQE=" alt="Stuffed Pork Chops">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Philly Cheesesteak</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ64fj374F_W9bT0r9Ztx2Y8AFKl_cBGQDrwIM5OHURePoGXSlZ&s" alt="Philly Cheesesteak">
+            </div>
+        </div>
+    </div> 
+</body>
+
+</html>

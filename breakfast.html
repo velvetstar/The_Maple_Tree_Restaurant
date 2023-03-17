@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> 
+        
+    <title>Breakfast</title>
+
+    <style>
+        a, a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        #navbar {
+            background-color: black;
+        }
+        #navBtnGrp {
+            width: 100%;
+            text-align: center;
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #00ffff 0%, #66ccff 100%);
+            color: #000000 !important;
+        }
+        #pageBtnGrp {
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+        }
+        #pages, #pages:hover {
+            text-decoration: none;
+            color: black;
+        }
+        #breakfast {
+            background-color: #AAE9F3;
+            width: 1200px;
+            padding-left: 15px;
+            border-radius: 5px;
+            margin: 20px;   
+        }
+        @media only screen and (max-width: 600px) {
+            #breakfast {
+                width: 100%;
+                height: auto;
+            }
+        }
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+            <div id="navBtnGrp">        
+                <button class="btn btn-danger text-white navbar-btn"><a href="order.html">Order</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="location.html">Location</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="contactus.html">Contact Us</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="index.html">Home</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pageBtnGrp">
+        <button class="btn btn-primary"><a id="pages" href="breakfast.html">Breakfast</a></button>
+        <button class="btn btn-primary"><a id="pages" href="lunch.html">Lunch</a></button>
+        <button class="btn btn-primary"><a id="pages" href="dinner.html">Dinner</a></button>
+    </div>
+
+    <div id="breakfast">
+        <h1>Breakfast</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Biscuits &amp; Gravy</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs8_83Lw9afKuuPp4oidTfC0l_bifeipU1zfCG6p_TfxJOfKJp&s" alt="Biscuits &amp; Gravy">
+            </div>
+            <div class="col-xs-12 col-md-4">  
+                <h2>Croissant</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FEr7y86G9f0epBeN4PUAKwABkyLaRyMeqDFazivZn5GUkpZk&s" alt="Croissant">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Banana Bread</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThs5TRtO_CXEdLU2jQIPsitmNy5hcuS5qsM2mQqVk_gjfMGO4&s" alt="Banana Bread">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Omelette</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8y0OLwmypcyKWkgKWyta1c17dgCmmNYE-Kl7QPYSWiF5ZIs&s" alt="Omelette">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Eggs</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAsLPSLcosy7YKDkGO6V9Ais3FmwaYiyC4rl_1HnnisypVykI&s" alt="Eggs">
+            </div>
+            <div clas="col-xs-12 col-md-4">
+                <h2>Bacon</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNeukzImcOeROR79g9YHka75DgEjf5xQZgOaEeufiwfVes10m&s" alt="Bacon">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>Sausage</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfVAqCBiuSQy_jgYoZvJjZfSyPd-gyOwckkkPMIBSmDFXN8Pr4&s" alt="Sausage">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Pancakes</h2>
+                <img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVVrBSsDuAVEqNtmk9RS-_aZvT76dcUcX4srNKFUX0F5RtRWk&s" alt="Pancakes">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h2>Hashbrowns</h2>
+                <img class="responsive" src="https://clipground.com/images/hash-brown-clipart-15.jpg" alt="Hashbrowns">
+            </div>
+        </div>
+    </div>        
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <title>Location of The Maple Tree Restaurant</title>
+    
+    <style>
+        a, a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        #navbar {
+            background-color: black;
+        }
+        #btnGrp {
+            width: 100%;
+            text-align: center;
+        }
+        #location {
+            text-align: center;
+        }
+        .responsive {
+            width: 100%;
+        }
+        #map {
+            margin-left: auto;
+            margin-right: auto;
+            width: 600px;
+            height: 450px;
+        }
+    </style>
+
+</head>
+    
+<body>
+
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container-fluid">
+            <div id="btnGrp">
+                <button class="btn btn-danger text-white navbar-btn"><a href="menu.html">Menu</a></button>      
+                <button class="btn btn-danger text-white navbar-btn"><a href="order.html">Order</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="contactus.html">Contact Us</a></button>
+                <button class="btn btn-danger text-white navbar-btn"><a href="index.html">Home</a></button>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="location">
+        <h1>The Maple Tree</h1>
+        <h1>Maple St.</h1>
+        <h1>Colorado Springs, CO  80903</h1>
+    </div>
+
+    <div id="map">
+        <iframe class="responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.487608615611!2d-104.81553028515668!3d38.84419405768449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87134513a9e07a99%3A0xa53d87f11bc0fd5c!2sMaple%20St%2C%20Colorado%20Springs%2C%20CO%2080903!5e0!3m2!1sen!2sus!4v1613145111449!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+</body>
+
+</html>
